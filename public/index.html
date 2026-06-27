@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFHL Tree Hierarchy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🌳 Tree Hierarchy Builder</h1>
+
+    <p class="subtitle">
+        Enter one node per line
+    </p>
+
+    <textarea
+        id="nodeInput"
+        placeholder="A->B
+A->C
+B->D
+C->E
+E->F"></textarea>
+
+    <button id="submitBtn">
+        Submit
+    </button>
+
+    <div id="loading" class="loading hidden">
+        Processing...
+    </div>
+
+    <div id="error" class="error hidden"></div>
+
+    <div id="response"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
